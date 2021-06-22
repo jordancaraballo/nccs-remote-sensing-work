@@ -1,5 +1,9 @@
 # ArcGIS Pro Image Labeling
 
+## Login to Guacamole
+
+Guacamole can be found on https://guac.nccs.nasa.gov/. The VM gs6062win47 includes ArcGIS Pro.
+
 ## Confirm that Spatial Analyst license is activated
 
 a. Open ArcGIS Pro, Go to Settings by clicking the “Project” tab, “Licensing” on the left panel. If it’s not checked at the bottom of the list, then scroll down the panel to “Configure your licensing options”, scroll down the list in the pop up window and check the box next to Spatial Analyst
