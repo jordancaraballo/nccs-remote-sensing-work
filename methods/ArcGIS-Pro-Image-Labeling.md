@@ -1,9 +1,14 @@
-Image Labeling Methodology
-ArcGIS Pro Image Labeling
-I.	Confirm that Spatial Analyst license is activated
-a.	Open ArcGIS Pro, Go to Settings by clicking the “Project” tab, “Licensing” on the left panel. If it’s not checked at the bottom of the list, then scroll down the panel to “Configure your licensing options”, scroll down the list in the pop up window and check the box next to Spatial Analyst
-b.	Also when using tools, there may be an identical tool from Image Analyst and Spatial Analyst extensions, and to choose the Spatial Analyst Option
-II.	Set “Environments” in the Analysis Tab, choose where you want your work to be saved, and use the drop down to select the original data image or iso image for the other parameters.
+# ArcGIS Pro Image Labeling
+
+## Confirm that Spatial Analyst license is activated
+
+a. Open ArcGIS Pro, Go to Settings by clicking the “Project” tab, “Licensing” on the left panel. If it’s not checked at the bottom of the list, then scroll down the panel to “Configure your licensing options”, scroll down the list in the pop up window and check the box next to Spatial Analyst
+b. Also when using tools, there may be an identical tool from Image Analyst and Spatial Analyst extensions, and to choose the Spatial Analyst Option
+
+## Set “Environments” in the Analysis Tab
+
+Choose where you want your work to be saved, and use the drop down to select the original data image or iso image for the other parameters.
+
 i.	Current Workspace (the default is to use an ArcGIS geodatabase .gdb, but you can create your own folder instead)
 ii.	Scratch Workspace
 iii.	Output Coordinate System “WGS_1984_UTM_Zone_48N”
