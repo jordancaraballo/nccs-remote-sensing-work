@@ -1,0 +1,17 @@
+# Conda environment
+name: hlsgpp
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - ipykernel
+  - ipywidgets
+  - pip
+  - pip:
+    - numpy
+    - tqdm
+    - rasterio
+    - rioxarray
+    - matplotlib
+    - pandas

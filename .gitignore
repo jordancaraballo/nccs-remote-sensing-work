@@ -1,0 +1,8 @@
+# Ignore data directory
+data/
+output/
+.ipynb_checkpoints/
+.DS_Store
+
+# Ignore output files
+*.tif
