@@ -7,6 +7,8 @@ channels:
 dependencies:
   - ipykernel
   - ipywidgets
+  - gdal
+  - libgdal
   - pip
   - pip:
     - numpy
@@ -15,3 +17,4 @@ dependencies:
     - rioxarray
     - matplotlib
     - pandas
+    - scipy
