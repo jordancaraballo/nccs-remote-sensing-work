@@ -1,0 +1,46 @@
+# Conda environment
+name: raster-pipeline
+
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+  - rapidsai
+  - nvidia
+
+dependencies:
+  - rapids-blazing=21.06
+  - cudatoolkit=11.2
+  - ipykernel
+  - ipywidgets
+  - cython
+  - libspatialindex
+  - libgdal
+  - gdal
+  - libgdal
+  - pip
+  - pip:
+    - numpy
+    - tqdm
+    - rasterio
+    - rioxarray
+    - matplotlib
+    - pandas
+    - scipy
+    - geopandas
+    - shapely
+    - tensorflow==2.5
+    - opencv-python
+    - scikit-image
+    - tifffile
+    - seaborn
+    - scipy
+    - Pillow
+    - imagecodecs
+    - rasterio
+    - dask-image
+    - tqdm
+    - GDAL
+    - pyproj
+    - rioxarray
+
