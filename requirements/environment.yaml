@@ -1,5 +1,5 @@
 # Conda environment
-name: raster-pipeline
+name: hls-vis-gpp
 
 channels:
   - conda-forge
@@ -9,38 +9,16 @@ channels:
   - nvidia
 
 dependencies:
-  - rapids-blazing=21.06
+  - rioxarray
+  - cupy
   - cudatoolkit=11.2
+  - dask-cuda
+  - cudnn
+  - cutensor
+  - nccl
+  # - rapids-blazing=21.06
+  # - cudatoolkit=11.2
   - ipykernel
   - ipywidgets
-  - cython
-  - libspatialindex
-  - libgdal
-  - gdal
-  - libgdal
-  - pip
-  - pip:
-    - numpy
-    - tqdm
-    - rasterio
-    - rioxarray
-    - matplotlib
-    - pandas
-    - scipy
-    - geopandas
-    - shapely
-    - tensorflow==2.5
-    - opencv-python
-    - scikit-image
-    - tifffile
-    - seaborn
-    - scipy
-    - Pillow
-    - imagecodecs
-    - rasterio
-    - dask-image
-    - tqdm
-    - GDAL
-    - pyproj
-    - rioxarray
-
+  - matplotlib
+  - geopandas
