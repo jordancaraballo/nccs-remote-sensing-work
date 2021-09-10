@@ -15,3 +15,6 @@ for i, layer in enumerate ( modis_selected_layers ):
 
     data[layer] = g.ReadAsArray()
     print ("\t>>> Read %s!" % layer)
+
+from rioxarray.merge import merge_datasets
+merged = merge_datasets(datasets_list)
