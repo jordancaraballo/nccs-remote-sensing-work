@@ -1,8 +1,37 @@
-# Ignore data directory
+# Ignore editor files
+.idea/
+.vscode/
+.DS_Store
+*-workspace
+.ipynb_checkpoints/
+dask-worker-space/
+test/
+tmp/
+
+# Ignore compiled files
+__pycache__/
+*egg-info/
+build/
+dist/
+
+# Ignore data products
+*.tif
+*.pkl
+*.xml
+*.out
+*.npy
+*.npz
+*data/
+
+# Ignore debugging and testing logs
 data/
 output/
-.ipynb_checkpoints/
-.DS_Store
+results/
+Results/
+Logs/
+*logs
 
-# Ignore output files
-*.tif
+# Ignore other repositories
+xrasterlib/
+
+# EOF
